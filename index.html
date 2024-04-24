@@ -13,12 +13,22 @@
         <div class="image">
           <img src="/img/halie-west-25xggax4bSA-unsplash.jpg" alt="" />
         </div>
-        <div class="logo">
-            <img src="/img/odin-lined.png" alt="">
-            <p>odin</p>
+        <div class="logo-banner"></div>
+        <div class="logo-content">
+          <img src="/img/odin-lined.png" alt="" />
+          <p>ODIN</p>
         </div>
         <div class="image-credit">
-            Photo by <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA">Halie West</a> on <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA">Unsplash</a>
+          Photo by
+          <a
+            href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA"
+            >Halie West</a
+          >
+          on
+          <a
+            href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA"
+            >Unsplash</a
+          >
         </div>
       </div>
       <div class="form-sec">
@@ -26,28 +36,35 @@
           This is not a real online service! You know you need something like
           this in your life to help you realize your deepest dreams.
           <p>Sign up <em>now</em> to get started.</p>
-          <p>You <em>know</em> you want to.</p>
+          <p class="call-for-action">You <em>know</em> you want to.</p>
         </header>
-        <div>
-          <form action="#" method="get">
+
+        <form action="#" method="get">
+          <div class="white-block">
             <p>Let's do this!</p>
-            <label for="first-name">FIRST NAME</label>
-            <input type="text" id="first-name" name="fname"/>
-            <label for="last-name">LAST NAME</label>
-            <input type="text" id="last-name" name="lname" />
-            <label for="email">EMAIL</label>
-            <input type="email" id="email" name="user-email" />
-            <label for="phone">PHONE NUMBER</label>
-            <input type="tel" id="phone" name="phone"/>
-            <label for="password">PASSWORD</label>
-            <input type="password" id="password" name="pwd" />
-            <label for="confirmp">CONFIRM PASSWORD</label>
-            <input type="password" id="confirmp" name="confirmp" />
-            <button type="submit">Create Account</button>
-          </form>
-          <p>Already have an account? <a href="#">Log in</a></p>
-        </div>
-    
+            <div class="input-container">
+              <div class="input-item">
+                <label for="first-name">FIRST NAME</label>
+                <input type="text" id="first-name" name="fname" required />
+                <label for="email">EMAIL</label>
+                <input type="email" id="email" name="user-email" required />
+                <label for="password">PASSWORD</label>
+                <input type="password" id="password" name="pwd" required />
+                <span></span>
+              </div>
+              <div class="input-item">
+                <label for="last-name">LAST NAME</label>
+                <input type="text" id="last-name" name="lname" required />
+                <label for="phone">PHONE NUMBER</label>
+                <input type="tel" id="phone" name="phone" required />
+                <label for="confirmp">CONFIRM PASSWORD</label>
+                <input type="password" id="confirmp" name="confirmp" required />
+              </div>
+            </div>
+          </div>
+          <button type="submit">Create Account</button>
+          <p class="login">Already have an account? <a href="#">Log in</a></p>
+        </form>
       </div>
     </div>
   </body>
